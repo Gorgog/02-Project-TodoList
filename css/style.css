@@ -376,16 +376,22 @@ body {
   }
   .page #task-creation-block {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .page__task-creation-block {
-    width: 100%;
+    width: 95%;
     margin: 21px 0px 0px 0px;
     border-radius: 0px;
+    border-radius: 20px;
   }
   .page__task-creation-block input {
-    width: 100%;
+    width: 95%;
     border-radius: 0px;
     font-size: 12px;
+    border-radius: 11px;
   }
   .page__task-creation-block input::placeholder {
     font-size: 12px;
